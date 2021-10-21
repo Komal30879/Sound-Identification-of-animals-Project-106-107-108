@@ -1,0 +1,44 @@
+body{
+    background-color: lavenderblush;
+}
+
+.header_div{
+    background-color: plum;
+    color: aliceblue;
+}
+
+h2{
+    font-family: 'Fleur De Leah', cursive;
+    font-size: 40px;
+}
+
+p{
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
+
+button{
+    margin-top: 10px;
+    font-family: 'Indie Flower', cursive;
+}
+
+h4{
+    font-family: 'Patrick Hand', cursive;
+}
+
+h3{
+    font-family: 'Patrick Hand', cursive;
+}
+
+.copyright_footer{
+    font-family: 'Fleur De Leah', cursive;
+    position: fixed;
+    color:lightpink;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    background-color: #f5f5f5;
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(151, 149, 149);
+}
