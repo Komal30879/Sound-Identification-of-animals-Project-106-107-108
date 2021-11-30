@@ -4,6 +4,7 @@ function start_classification(){
     classifier = ml5.soundClassifier('https://teachablemachine.withgoogle.com/models/v-8LTREl0/model.json',modelReady);
 }
 
+
 function modelReady(){
     classifier.classify(gotResults);
 }
@@ -28,6 +29,7 @@ function gotResults(error,results){
         tiger = 0;
 
         img = document.getElementById("gifs");
+        
         if(results[0].label == "Barking"){
             img.src = 'dog.gif';
             dog = dog + 1;
